@@ -1,0 +1,57 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgb(61, 61, 61);
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: rgb(69, 69, 255);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  /* padding: 0; */
+}
+
+/* Home */
+.home-section {
+  background-color: rgb(95, 95, 95);
+  text-align: center;
+  padding: 100px;
+  margin-bottom: 20px;
+}
+
+/* Proyectos */
+.project-card {
+  border: 1px solid white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Contacto */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-form button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
